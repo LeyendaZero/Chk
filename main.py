@@ -8,7 +8,7 @@ with open("config.json", "r", encoding="utf-8") as f:
     DATA      = json.load(f)
     API_ID    = DATA["API_ID"]
     API_HASH  = DATA["API_HASH"]
-    BOT_TOKEN = DATA["7751263364:AAHWaMk90iayycmF89QcEo1gXxk40TIwOLA"]
+    BOT_TOKEN = DATA["BOT_TOKEN"]
 
 user = Client( 
             "Scrapper", 
