@@ -2,7 +2,7 @@ import traceback
 import pymongo
 
 client = pymongo.MongoClient(
-        "set-your-mongo-url"
+        "mongodb://aopenhimer:<db_password>@cluster0-shard-00-00.khkbp.mongodb.net:27017,cluster0-shard-00-01.khkbp.mongodb.net:27017,cluster0-shard-00-02.khkbp.mongodb.net:27017/?ssl=true&replicaSet=atlas-45bvo3-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0"
 
 )
 result = str(client)
