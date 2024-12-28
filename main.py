@@ -4,7 +4,7 @@ from FUNC.server_stats import *
 
 plugins = dict(root="BOT")
 
-with open("FILES/config.json", "r", encoding="utf-8") as f:
+with open("config.json", "r", encoding="utf-8") as f:
     DATA      = json.load(f)
     API_ID    = DATA["API_ID"]
     API_HASH  = DATA["API_HASH"]
