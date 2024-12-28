@@ -1,7 +1,7 @@
 import pymongo
 
 client = pymongo.MongoClient(
-        "set-your-mongo-url"
+        "mongodb://aopenhimer:leyenda2009@cluster0-shard-00-00.hr9qd.mongodb.net:27017,cluster0-shard-00-01.hr9qd.mongodb.net:27017,cluster0-shard-00-02.hr9qd.mongodb.net:27017/?ssl=true&replicaSet=atlas-xlt5ts-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0"
 )
 
 result = str(client)
