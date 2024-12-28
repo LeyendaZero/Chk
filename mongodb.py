@@ -2,8 +2,7 @@ import traceback
 import pymongo
 
 client = pymongo.MongoClient(
-        "mongodb://aopenhimer:leyenda2009@cluster0-shard-00-00.khkbp.mongodb.net:27017,cluster0-shard-00-01.khkbp.mongodb.net:27017,cluster0-shard-00-02.khkbp.mongodb.net:27017/?ssl=true&replicaSet=atlas-45bvo3-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0"
-
+        "mongodb://aopenhimer:leyenda2009@cluster0-shard-00-00.hr9qd.mongodb.net:27017,cluster0-shard-00-01.hr9qd.mongodb.net:27017,cluster0-shard-00-02.hr9qd.mongodb.net:27017/?ssl=true&replicaSet=atlas-xlt5ts-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0"
 )
 result = str(client)
 
